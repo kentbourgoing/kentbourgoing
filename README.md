@@ -26,50 +26,41 @@ Recent UC Berkeley Master of Information and Data Science (MIDS) graduate with e
 
 ## 🚀 Projects Portfolio
 
-### 🏛️ [AI-Powered Legal Citation Analyzer](https://github.com/kentbourgoing/legal-citation-analyzer) (Wolters Kluwer Capstone)
-Delivered a legal research MVP in a 14-week client capstone with weekly stakeholder meetings. Built a Neo4j knowledge graph (3.5K cases, 5.5K citations), optimized citation sentiment classification to 67% accuracy using a 3-model LLM ensemble (Claude 3.5 Sonnet, Mistral-7B, Llama 3-70B), and developed an agentic GraphRAG chatbot with LangGraph orchestrating 8 tools for legal research.  
-**Tech:** Python, Neo4j, LangGraph, Mistral-7B, Claude API, Streamlit, AWS | **Impact:** Functional MVP delivered on schedule with configurable case labeling for different practice areas
+### 🏛️ [AI-Powered Legal Citation Analyzer](https://github.com/kentbourgoing/legal-citation-analyzer) (UC Berkeley × Wolters Kluwer Client Capstone)
+UC Berkeley School of Information partnered with Wolters Kluwer, a global leader in professional information services for legal, tax, healthcare, and compliance markets, to explore how modern AI can improve legal citation analysis. In a 14-week client capstone with weekly stakeholder meetings, we built an AI-powered legal research MVP showing that LLM-based systems can approach traditional citator accuracy while providing clearer, human-readable reasoning. The platform helps attorneys quickly assess whether a case remains “Good Law” by analyzing how later courts have treated it.
+* **Tech/Methods:** Python, Streamlit, Neo4j/Cypher, knowledge graphs, RAG/GraphRAG (LangGraph), agentic tools, LLM ensemble (Claude 3.5 Sonnet, Mistral-7B, Llama 3-70B), prompt engineering, vector embeddings (Amazon Titan), AWS Bedrock, CourtListener API, model evaluation.
 
 ### 📝 [Text Detoxification System](https://github.com/kentbourgoing/text-detoxification)
-Built a modular NLP pipeline that reduced toxicity by 75% (0.208→0.051) while preserving meaning (93.6% similarity) and improving fluency. Tested 11 configurations combining DecompX token attribution with LLM-based masking and infilling, developing a novel Global Reranking method that jointly optimized toxicity, semantic similarity, and perplexity.  
-**Tech:** PyTorch, HuggingFace Transformers, Mistral-7B, T5, XLM-R, GPT-2 | **Impact:** 35-75% toxicity reduction across all configurations
-
-### ☁️ [Scalable ML API on AWS EKS](https://github.com/kentbourgoing/aws-ml-api)
-Deployed a production sentiment analysis API (DistilBERT) handling 70-100 req/s with zero downtime and p99 latency under 2s. Implemented Redis caching (95%+ hit rate) to cut infrastructure costs 40% and configured Kubernetes HPA for auto-scaling (1-70 pods) with Istio service mesh routing.  
-**Tech:** FastAPI, Docker, Redis, AWS EKS, Kubernetes, Istio, Grafana, k6 | **Impact:** 28K+ requests tested with 100% success rate
+Toxic language is common online and can harm users and communities. This project built an automated system that rewrites toxic text into safer alternatives, reducing toxicity by 75% while keeping the text natural. After testing 11 approaches, we identified the most effective methods for making online spaces safer without changing the original meaning.
+* **Tech/Methods:** Python, PyTorch, Hugging Face Transformers, DecompX, masking/infilling/reranking pipelines, Mistral-7B, MaRCo BART, T5, XLM-R toxicity scoring, LaBSE semantic similarity, GPT-2 perplexity, benchmark evaluation.
 
 ### 🚗 [Child Safety Field Experiment](https://github.com/kentbourgoing/child-safety-experiment)
-Designed a randomized 1×4 field experiment (n=497) to estimate the causal impact of low-cost visual cues on residential vehicle speed. Estimated a 1.9 mph speed reduction and 18 percentage point increase in 25-mph compliance (p<0.001) using linear regression with robust standard errors.  
-**Tech:** R, experimental design, linear regression, ggplot2 | **Impact:** Statistically significant results demonstrating effectiveness of low-cost traffic calming measures
+In the U.S., child pedestrians continue to face serious risk, with about 385 deaths and 9,300+ injuries reported in 2023. Vehicle speed strongly affects both crash risk and injury severity, so even small reductions can matter. This project tested whether simple, low-cost “kids at play” cues can slow drivers without expensive road changes.
+* **Tech/Methods:** R, experimental design, randomized field experiment, causal inference, linear regression, robust standard errors, hypothesis testing, data visualization (ggplot2).
+
+### ☁️ [Scalable ML API Deployment on AWS EKS](https://github.com/kentbourgoing/aws-ml-api)
+Deployed an end-to-end sentiment analysis API on AWS that processes 70-100 requests per second with 100% uptime. This project demonstrates enterprise-level ML system engineering by combining containerization, orchestration, caching, and monitoring into a scalable production system. The implementation showcases critical skills for deploying ML models in real-world environments where performance, reliability, and cost efficiency matter.
+* **Tech/Methods:** Python, FastAPI, Docker, Redis caching, AWS (EKS/ECR), Kubernetes (HPA, health checks), Istio routing, load testing (k6), monitoring (Grafana), NLP model serving (DistilBERT), reliability/performance testing.
 
 ### ✈️ [Flight Delay Prediction at Scale](https://github.com/kentbourgoing/flight-delay-prediction)
-Built a distributed ML pipeline on Databricks processing 28M flight records (2015-2019) to predict departure status (Early/On-Time/Delayed). Implemented blocked time-series cross-validation to prevent temporal leakage and improved F1 by 6% through probability calibration to correct oversampling bias.  
-**Tech:** PySpark, Databricks, Apache Spark, MLP, Random Forest | **Impact:** 54.6% F1 with 80.3% recall on majority class
+Flight delays disrupt 2.9M+ daily passengers and spread across connected airline networks. This project built a scalable ML pipeline to predict departure status (Early, On-Time, Delayed) using 28M flight records (2015–2019), combining U.S. DOT flight data with NOAA weather on a distributed Apache Spark/Databricks platform.
+* **Tech/Methods:** Apache Spark, PySpark, Databricks, distributed ML, feature engineering, blocked time-series cross-validation, class imbalance handling (over/under sampling, SMOTE), Logistic Regression, Random Forest, MLP, hyperparameter tuning (Grid Search, Optuna), probability calibration/recalibration, model evaluation.
 
-### ❤️ [Heart Failure Survival Prediction](https://github.com/kentbourgoing/heart-failure-prediction)
-Predicted heart failure survival with 85% accuracy (77% precision, 63% recall) by training 21 ML models including Gradient Boosting, Random Forest, AdaBoost, and Neural Networks. Implemented GMM data augmentation to expand dataset from 299 to 5,299 samples and optimized decision thresholds to prioritize detection of at-risk patients.  
-**Tech:** Python, scikit-learn, TensorFlow/Keras, GMM | **Impact:** 85% test accuracy with models prioritizing recall to reduce missed diagnoses
+### 🌍 [Atmospheric CO2 Trend Forecasting (Keeling Curve Analysis)](https://github.com/kentbourgoing/co2-forecasting)
+This project analyzed 40 years of CO2 data from Mauna Loa Observatory to forecast critical environmental thresholds. Understanding CO2 trends is essential for climate policy and planning. By building forecasting models from a 1997 perspective and validating them against actual data through 2024, the project revealed important insights about model performance and accelerating CO2 growth.
+* **Tech/Methods:** R, time-series EDA, ARIMA/SARIMA, seasonal decomposition, stationarity checks/differencing, model selection (AIC/BIC), residual diagnostics (Ljung-Box), probabilistic forecasting, tidyverse, fable, ggplot2.
 
-### 🌍 [Atmospheric CO₂ Forecasting (Keeling Curve)](https://github.com/kentbourgoing/co2-forecasting)
-Forecasted CO₂ trends using 468 observations (1958-1997) with seasonal ARIMA models. Projected 420 ppm by April 2030 and 500 ppm by May 2072 with 95% confidence intervals. Validated forecasts against 2024 data revealed actual CO₂ growth exceeded predictions by 8 years.  
-**Tech:** R, ARIMA/SARIMA, time series analysis, fable | **Impact:** Long-term probabilistic forecasts with quantified uncertainty
+### ❤️ [Heart Failure Survival Prediction System](https://github.com/kentbourgoing/heart-failure-prediction)
+Developed a machine learning system to predict survival outcomes in heart failure patients using clinical data from electronic medical records. With cardiovascular diseases causing 17 million deaths annually worldwide, this project demonstrates how machine learning can help healthcare professionals identify high-risk patients early and improve clinical decision-making.
+* **Tech/Methods:** Python, scikit-learn, TensorFlow/Keras, supervised learning, model comparison, hyperparameter tuning, Logistic Regression, K-Nearest Neighbors (KNN), K-Means Clustering, Gradient Boosting, Decision Tree, Random Forest, AdaBoost, Neural Networks (MLP), synthetic data augmentation (GMM), evaluation (accuracy/precision/recall), threshold tuning.
+
+### 🚇 [Bay Area Food Delivery Optimization (BART Transit Analysis)](https://github.com/kentbourgoing/bart-delivery-optimization)
+A simulated company, Acme Gourmet Meals (AGM), needed to expand its food delivery across the Bay Area by placing pickup points at BART stations and optimizing delivery routes. This project shows how a multi-database (NoSQL + graph) approach can outperform a relational-only setup for real-time delivery operations and network optimization.
+* **Tech/Methods:** PostgreSQL, Neo4j/Cypher, Python (pandas, psycopg2), ETL pipelines, graph analytics, shortest paths (Dijkstra), community detection (Louvain), centrality/PageRank, geospatial analysis, data visualization.
 
 ### 📊 [Labor Economics Analysis](https://github.com/kentbourgoing/labor-economics-analysis)
-Analyzed the relationship between work hours and salary using 69,148 CPS ASEC 2023 workers. Applied log transformation and tested multiple regression specifications (linear, log-linear, polynomial), estimating a significant earnings effect of +$2,232 per hour (linear) and ~5.6% per hour (log model), improving R² from 0.083 to 0.307.  
-**Tech:** R, linear regression, statistical modeling, ggplot2 | **Impact:** Evidence-based insights for labor policy discussions on work-life balance and income
-
-### 🚇 [Bay Area Food Delivery Optimization](https://github.com/kentbourgoing/bart-delivery-optimization)
-Built a polyglot data platform (PostgreSQL + Neo4j) for 12 months of BART ridership data (50 stations). Identified 11 distribution zones using Louvain community detection and recommended 9 strategic pickup locations plus 1 central hub using Dijkstra shortest path and centrality metrics (closeness/betweenness/PageRank).  
-**Tech:** PostgreSQL, Neo4j, Cypher, Python ETL, graph analytics | **Impact:** Strategic recommendations for delivery network optimization using graph-based routing
-
----
-
-## 💼 Professional Experience
-
-**Environmental Engineer Consultant** @ Yorke Engineering, LLC (Sept 2023 - Present)  
-- Reduced client compliance costs by $100K+ annually leading air quality projects for 100+ facilities
-- Supported regulator-approved GHG report revision saving $5M by auditing emissions data and delivering analysis
-- Improved project delivery efficiency 30% by integrating AI tools into workflows
+This project analyzed the relationship between weekly work hours and annual earnings using real-world US Census data from 69,000+ employed workers. Understanding this relationship is crucial for informing labor policy, workplace regulations, and helping workers make informed career decisions. Working in a 4-person team, we applied statistical modeling techniques to quantify how additional work hours translate into salary gains, revealing insights into the economic trade-offs of work-life balance.
+* **Tech/Methods:** R, data cleaning, log transformation, OLS regression, model comparison (linear/log-linear/polynomial), RMSE, residual diagnostics, hypothesis testing, tidyverse, ggplot2.
 
 ---
 
