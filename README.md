@@ -26,7 +26,7 @@ Recent UC Berkeley Master of Information and Data Science (MIDS) graduate with e
 
 ## 🚀 Projects Portfolio
 
-### 🏛️ [AI-Powered Legal Citation Analyzer](https://github.com/kentbourgoing/legal-citation-analyzer) (UC Berkeley × Wolters Kluwer Client Capstone)
+### 🏛️ [AI-Powered Legal Citation Analyzer](https://github.com/kentbourgoing/ai-powered-legal-citation-analyzer) (UC Berkeley × Wolters Kluwer Client Capstone)
 UC Berkeley School of Information partnered with Wolters Kluwer, a global leader in professional information services for legal, tax, healthcare, and compliance markets, to explore how modern AI can improve legal citation analysis. In a 14-week client capstone with weekly stakeholder meetings, we built an AI-powered legal research MVP showing that LLM-based systems can approach traditional citator accuracy while providing clearer, human-readable reasoning. The platform helps attorneys quickly assess whether a case remains “Good Law” by analyzing how later courts have treated it.
 * **Tech/Methods:** Python, Streamlit, Neo4j/Cypher, knowledge graphs, RAG/GraphRAG (LangGraph), agentic tools, LLM ensemble (Claude 3.5 Sonnet, Mistral-7B, Llama 3-70B), prompt engineering, vector embeddings (Amazon Titan), AWS Bedrock, CourtListener API, model evaluation.
 
