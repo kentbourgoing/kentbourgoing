@@ -30,7 +30,7 @@ Recent UC Berkeley Master of Information and Data Science (MIDS) graduate with e
 UC Berkeley School of Information partnered with Wolters Kluwer, a global leader in professional information services for legal, tax, healthcare, and compliance markets, to explore how modern AI can improve legal citation analysis. In a 14-week client capstone with weekly stakeholder meetings, we built an AI-powered legal research MVP showing that LLM-based systems can approach traditional citator accuracy while providing clearer, human-readable reasoning. The platform helps attorneys quickly assess whether a case remains “Good Law” by analyzing how later courts have treated it.
 * **Tech/Methods:** Python, Streamlit, Neo4j/Cypher, knowledge graphs, RAG/GraphRAG (LangGraph), agentic tools, LLM ensemble (Claude 3.5 Sonnet, Mistral-7B, Llama 3-70B), prompt engineering, vector embeddings (Amazon Titan), AWS Bedrock, CourtListener API, model evaluation.
 
-### 📝 [Text Detoxification System](https://github.com/kentbourgoing/text-detoxification)
+### 📝 [Text Detoxification System](https://github.com/kentbourgoing/english-text-detoxification-system-/tree/main)
 Toxic language is common online and can harm users and communities. This project built an automated system that rewrites toxic text into safer alternatives, reducing toxicity by 75% while keeping the text natural. After testing 11 approaches, we identified the most effective methods for making online spaces safer without changing the original meaning.
 * **Tech/Methods:** Python, PyTorch, Hugging Face Transformers, DecompX, masking/infilling/reranking pipelines, Mistral-7B, MaRCo BART, T5, XLM-R toxicity scoring, LaBSE semantic similarity, GPT-2 perplexity, benchmark evaluation.
 
