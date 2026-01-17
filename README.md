@@ -34,7 +34,7 @@ UC Berkeley School of Information partnered with Wolters Kluwer, a global leader
 Toxic language is common online and can harm users and communities. This project built an automated system that rewrites toxic text into safer alternatives, reducing toxicity by 75% while keeping the text natural. After testing 11 approaches, we identified the most effective methods for making online spaces safer without changing the original meaning.
 * **Tech/Methods:** Python, PyTorch, Hugging Face Transformers, DecompX, masking/infilling/reranking pipelines, Mistral-7B, MaRCo BART, T5, XLM-R toxicity scoring, LaBSE semantic similarity, GPT-2 perplexity, benchmark evaluation.
 
-### 🚗 [Child Safety Field Experiment](https://github.com/kentbourgoing/child-safety-experiment)
+### 🚗 [Child Safety Field Experiment](https://github.com/kentbourgoing/-reducing-child-accident-risk-through-visual-cues/tree/main)
 In the U.S., child pedestrians continue to face serious risk, with about 385 deaths and 9,300+ injuries reported in 2023. Vehicle speed strongly affects both crash risk and injury severity, so even small reductions can matter. This project tested whether simple, low-cost “kids at play” cues can slow drivers without expensive road changes.
 * **Tech/Methods:** R, experimental design, randomized field experiment, causal inference, linear regression, robust standard errors, hypothesis testing, data visualization (ggplot2).
 
