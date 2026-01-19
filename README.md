@@ -42,7 +42,7 @@ In the U.S., child pedestrians continue to face serious risk, with about 385 dea
 Deployed an end-to-end sentiment analysis API on AWS that processes 70-100 requests per second with 100% uptime. This project demonstrates enterprise-level ML system engineering by combining containerization, orchestration, caching, and monitoring into a scalable production system. The implementation showcases critical skills for deploying ML models in real-world environments where performance, reliability, and cost efficiency matter.
 * **Tech/Methods:** Python, FastAPI, Docker, Redis caching, AWS (EKS/ECR), Kubernetes (HPA, health checks), Istio routing, load testing (k6), monitoring (Grafana), NLP model serving (DistilBERT), reliability/performance testing.
 
-### ✈️ [Flight Delay Prediction at Scale](https://github.com/kentbourgoing/flight-delay-prediction)
+### ✈️ [Flight Delay Prediction at Scale](https://github.com/kentbourgoing/flight-delay-prediction-at-scale)
 Flight delays disrupt 2.9M+ daily passengers and spread across connected airline networks. This project built a scalable ML pipeline to predict departure status (Early, On-Time, Delayed) using 28M flight records (2015–2019), combining U.S. DOT flight data with NOAA weather on a distributed Apache Spark/Databricks platform.
 * **Tech/Methods:** Apache Spark, PySpark, Databricks, distributed ML, feature engineering, blocked time-series cross-validation, class imbalance handling (over/under sampling, SMOTE), Logistic Regression, Random Forest, MLP, hyperparameter tuning (Grid Search, Optuna), probability calibration/recalibration, model evaluation.
 
