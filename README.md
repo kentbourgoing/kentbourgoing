@@ -38,7 +38,7 @@ Toxic language is common online and can harm users and communities. This project
 In the U.S., child pedestrians continue to face serious risk, with about 385 deaths and 9,300+ injuries reported in 2023. Vehicle speed strongly affects both crash risk and injury severity, so even small reductions can matter. This project tested whether simple, low-cost “kids at play” cues can slow drivers without expensive road changes.
 * **Tech/Methods:** R, experimental design, randomized field experiment, causal inference, linear regression, robust standard errors, hypothesis testing, data visualization (ggplot2).
 
-### ☁️ [Scalable ML API Deployment on AWS EKS](https://github.com/kentbourgoing/aws-ml-api)
+### ☁️ [Full End-to-End ML API Deployment on AWS EKS](https://github.com/kentbourgoing/full-end-to-end-ML-API/tree/main)
 Deployed an end-to-end sentiment analysis API on AWS that processes 70-100 requests per second with 100% uptime. This project demonstrates enterprise-level ML system engineering by combining containerization, orchestration, caching, and monitoring into a scalable production system. The implementation showcases critical skills for deploying ML models in real-world environments where performance, reliability, and cost efficiency matter.
 * **Tech/Methods:** Python, FastAPI, Docker, Redis caching, AWS (EKS/ECR), Kubernetes (HPA, health checks), Istio routing, load testing (k6), monitoring (Grafana), NLP model serving (DistilBERT), reliability/performance testing.
 
