@@ -50,7 +50,7 @@ Flight delays disrupt 2.9M+ daily passengers and spread across connected airline
 This project analyzed 40 years of CO2 data from Mauna Loa Observatory to forecast critical environmental thresholds. Understanding CO2 trends is essential for climate policy and planning. By building forecasting models from a 1997 perspective and validating them against actual data through 2024, the project revealed important insights about model performance and accelerating CO2 growth.
 * **Tech/Methods:** R, time-series EDA, ARIMA/SARIMA, seasonal decomposition, stationarity checks/differencing, model selection (AIC/BIC), residual diagnostics (Ljung-Box), probabilistic forecasting, tidyverse, fable, ggplot2.
 
-### ❤️ [Heart Failure Survival Prediction System](https://github.com/kentbourgoing/heart-failure-prediction)
+### ❤️ [Heart Failure Survival Prediction System](https://github.com/kentbourgoing/heart-failure-survival-prediction-system/tree/main)
 Developed a machine learning system to predict survival outcomes in heart failure patients using clinical data from electronic medical records. With cardiovascular diseases causing 17 million deaths annually worldwide, this project demonstrates how machine learning can help healthcare professionals identify high-risk patients early and improve clinical decision-making.
 * **Tech/Methods:** Python, scikit-learn, TensorFlow/Keras, supervised learning, model comparison, hyperparameter tuning, Logistic Regression, K-Nearest Neighbors (KNN), K-Means Clustering, Gradient Boosting, Decision Tree, Random Forest, AdaBoost, Neural Networks (MLP), synthetic data augmentation (GMM), evaluation (accuracy/precision/recall), threshold tuning.
 
