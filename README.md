@@ -54,7 +54,7 @@ This project analyzed 40 years of CO2 data from Mauna Loa Observatory to forecas
 Developed a machine learning system to predict survival outcomes in heart failure patients using clinical data from electronic medical records. With cardiovascular diseases causing 17 million deaths annually worldwide, this project demonstrates how machine learning can help healthcare professionals identify high-risk patients early and improve clinical decision-making.
 * **Tech/Methods:** Python, scikit-learn, TensorFlow/Keras, supervised learning, model comparison, hyperparameter tuning, Logistic Regression, K-Nearest Neighbors (KNN), K-Means Clustering, Gradient Boosting, Decision Tree, Random Forest, AdaBoost, Neural Networks (MLP), synthetic data augmentation (GMM), evaluation (accuracy/precision/recall), threshold tuning.
 
-### 🚇 [Bay Area Food Delivery Optimization (BART Transit Analysis)](https://github.com/kentbourgoing/bart-delivery-optimization)
+### 🚇 [Bay Area Food Delivery Optimization (BART Transit Analysis)](https://github.com/kentbourgoing/bay-area-food-delivery-optimization/tree/main)
 A simulated company, Acme Gourmet Meals (AGM), needed to expand its food delivery across the Bay Area by placing pickup points at BART stations and optimizing delivery routes. This project shows how a multi-database (NoSQL + graph) approach can outperform a relational-only setup for real-time delivery operations and network optimization.
 * **Tech/Methods:** PostgreSQL, Neo4j/Cypher, Python (pandas, psycopg2), ETL pipelines, graph analytics, shortest paths (Dijkstra), community detection (Louvain), centrality/PageRank, geospatial analysis, data visualization.
 
