@@ -46,7 +46,7 @@ Deployed an end-to-end sentiment analysis API on AWS that processes 70-100 reque
 Flight delays disrupt 2.9M+ daily passengers and spread across connected airline networks. This project built a scalable ML pipeline to predict departure status (Early, On-Time, Delayed) using 28M flight records (2015–2019), combining U.S. DOT flight data with NOAA weather on a distributed Apache Spark/Databricks platform.
 * **Tech/Methods:** Apache Spark, PySpark, Databricks, distributed ML, feature engineering, blocked time-series cross-validation, class imbalance handling (over/under sampling, SMOTE), Logistic Regression, Random Forest, MLP, hyperparameter tuning (Grid Search, Optuna), probability calibration/recalibration, model evaluation.
 
-### 🌍 [Atmospheric CO2 Trend Forecasting (Keeling Curve Analysis)](https://github.com/kentbourgoing/co2-forecasting)
+### 🌍 [Atmospheric CO2 Trend Forecasting (Keeling Curve Analysis)](https://github.com/kentbourgoing/atmospheric-CO2-trend-forecasting/tree/master)
 This project analyzed 40 years of CO2 data from Mauna Loa Observatory to forecast critical environmental thresholds. Understanding CO2 trends is essential for climate policy and planning. By building forecasting models from a 1997 perspective and validating them against actual data through 2024, the project revealed important insights about model performance and accelerating CO2 growth.
 * **Tech/Methods:** R, time-series EDA, ARIMA/SARIMA, seasonal decomposition, stationarity checks/differencing, model selection (AIC/BIC), residual diagnostics (Ljung-Box), probabilistic forecasting, tidyverse, fable, ggplot2.
 
