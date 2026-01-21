@@ -34,7 +34,7 @@ Built an AI legal research MVP that helps attorneys assess whether a case remain
 Built a modular NLP system that rewrites toxic text into safer alternatives while preserving meaning and fluency. Tested 11 pipeline variants and introduced a multi-objective reranking approach that balances toxicity reduction, semantic similarity, and language quality. Achieved a 75% toxicity reduction while keeping outputs natural and close to the original intent.
 * **Tech/Methods:** Python, PyTorch, Hugging Face Transformers, DecompX, masking/infilling/reranking pipelines, Mistral-7B, MaRCo BART, T5, XLM-R toxicity scoring, LaBSE semantic similarity, GPT-2 perplexity, benchmark evaluation.
 
-### 🚗 [Child Safety Field Experiment](https://github.com/kentbourgoing/-reducing-child-accident-risk-through-visual-cues/tree/main)
+### 🚗 [Reducing Child Accident Risk Through Visual Cues](https://github.com/kentbourgoing/-reducing-child-accident-risk-through-visual-cues/tree/main)
 Designed and ran a randomized field experiment to test whether low-cost “kids at play” visual cues reduce vehicle speeds on a residential street. Measured free-flow speeds and estimated causal effects across multiple conditions (control, sign only, sign + toys, sign + toys + balloons). Results show that higher-visibility cues can produce meaningful speed reductions without major road changes.
 * **Tech/Methods:** R, experimental design, randomized field experiment, causal inference, linear regression, robust standard errors, hypothesis testing, data visualization (ggplot2).
 
