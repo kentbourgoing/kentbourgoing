@@ -36,7 +36,7 @@ Built a modular NLP system that rewrites toxic text into safer alternatives whil
 
 ### 🚗 [Reducing Child Accident Risk Through Visual Cues](https://github.com/kentbourgoing/-reducing-child-accident-risk-through-visual-cues/tree/main)
 Designed and ran a randomized field experiment to test whether low-cost “kids at play” visual cues reduce vehicle speeds on a residential street. Measured free-flow speeds and estimated causal effects across multiple conditions (control, sign only, sign + toys, sign + toys + balloons). Results show that higher-visibility cues can produce meaningful speed reductions without major road changes.
-* **Tech/Methods:** R, experimental design, randomized field experiment, causal inference, linear regression, robust standard errors, hypothesis testing, data visualization (ggplot2).
+* **Tech/Methods:** R, experimental design, randomized field experiment, causal inference, A/B testing, linear regression, robust standard errors, hypothesis testing, data visualization (ggplot2).
 
 ### ☁️ [Full End-to-End ML API Deployment on AWS EKS](https://github.com/kentbourgoing/full-end-to-end-ML-API/tree/main)
 Deployed a production-style sentiment analysis API on AWS EKS and validated performance under sustained load. Built a FastAPI service with Docker, Redis caching, Kubernetes autoscaling, and monitoring. Sustained 70–100 requests/second with zero 5xx errors during load tests and low tail latency.
