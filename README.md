@@ -1,6 +1,6 @@
 # Hi, I'm Kent 👋
 
-Recent UC Berkeley Master of Information and Data Science (MIDS) graduate with experience building ML systems that deliver measurable business impact. I leverage machine learning, causal inference, time series, NLP, and cloud deployment skills alongside consulting experience to deliver stakeholder-ready results.
+Recent UC Berkeley Master of Information and Data Science (MIDS) graduate with experience building and deploying end-to-end ML systems. I leverage machine learning, causal inference, time series, NLP, and cloud deployment skills alongside consulting experience to deliver stakeholder-ready results.
 
 **🎓 Education:**  
 - Master of Information and Data Science, UC Berkeley School of Information — *December 2025* (GPA: 4.0/4.0)  
